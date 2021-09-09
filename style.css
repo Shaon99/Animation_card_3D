@@ -102,5 +102,10 @@ button.active{
     cursor: pointer;
     border-radius: 30px;
     font-weight: bolder;
+<<<<<<< HEAD
     margin-bottom: 50px;
 }
+=======
+    margin-bottom:50px;
+}
+>>>>>>> 4b08099af44bb25d87bb2af09c598c685396fe94
