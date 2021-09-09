@@ -25,7 +25,7 @@ container.addEventListener('mouseenter',(e)=>{
     description.style.transform='translateZ(125px)';
     description.style.color='#2f5693';
     sizes.style.transform='translateZ(100px)';
-    aaddtocart.style.transform='translateZ(60px)';
+    aaddtocart.style.transform='translateZ(75px)';
 
 
 })
@@ -42,4 +42,17 @@ container.addEventListener('mouseleave',(e)=>{
     sizes.style.transform='translateZ(0px)';
     aaddtocart.style.transform='translateZ(0px)';
 
+
 })
+ function change1() {
+     document.getElementById('pic').src='adidas.png';
+ }
+  function change2() {
+     document.getElementById('pic').src='adidas.png';
+ }
+  function change3() {
+     document.getElementById('pic').src='adidas.png';
+ }
+  function change4() {
+     document.getElementById('pic').src='adidas.png';
+ }
