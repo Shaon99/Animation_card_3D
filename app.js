@@ -25,7 +25,7 @@ container.addEventListener('mouseenter',(e)=>{
     description.style.transform='translateZ(125px)';
     description.style.color='#2f5693';
     sizes.style.transform='translateZ(100px)';
-    aaddtocart.style.transform='translateZ(75px)';
+    aaddtocart.style.transform='translateZ(60px)';
 
 
 })
