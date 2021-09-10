@@ -45,7 +45,7 @@ container.addEventListener('mouseleave',(e)=>{
 
 })
  function change1() {
-     document.getElementById('pic').src='a2.png';
+     document.getElementById('pic').src='adidas.png';
  }
   function change2() {
      document.getElementById('pic').src='a2.png';
