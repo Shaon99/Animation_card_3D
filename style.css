@@ -20,28 +20,32 @@ body{
     align-items: center;
 }
 
+
+
+
+
 .card{
     transform-style:preserve-3d ;
     min-height: 75vh;
-    width: 30rem;
+    width: 24rem;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2),0px 0px 50px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     padding: 0rem 3rem;
 }
 .adidas{
-    min-height: 40vh;
+    min-height: 33vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .adidas img{
-    width: 18rem;
+    width: 15rem;
     z-index: 2;
     transition: all 0.75s ease-out;
 }
 .circle{
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
     background: linear-gradient(
         to right,
         rgba(245,70,66,0.75),
@@ -52,15 +56,17 @@ body{
     z-index: 1;
 }
 .info h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: all 0.75s ease-out;
-    color: #2f5693;
+    color: #f55e50;
     text-transform:uppercase;
+    padding:0rem 3rem;
+
 }
 .info h3{
-    font-size: 1.2rem;
-    padding:1rem 0rem;
-    color: #f55e50;
+    font-size: .7rem;
+    padding:.3rem 3rem;
+    color: #2f5693;
     font-weight: lighter;
     transition: all 0.75s ease-out;
     text-transform:capitalize;
@@ -71,6 +77,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     transition: all 0.75s ease-out;
+    margin-top: .5rem;
 }
 
 .sizes button{
@@ -88,7 +95,7 @@ body{
     justify-content: space-evenly;
     transition: all 0.75s ease-out;
     margin-bottom:1rem;
-    margin-top:1rem;
+    margin-top:1.5rem;
 
 }
  .btn1{
@@ -133,12 +140,14 @@ body{
 }
 
 button.active{
-    background: rgba(8,83,156,0.75);
+    background: rgba(71, 224, 110, 0.75);
     color: white;
 }
 .addtocart{
-    margin-top: 3rem;
+    margin-top: 2rem;
     transition: all 0.75s ease-out;
+    padding: 0rem 3rem;
+
 
 }
 

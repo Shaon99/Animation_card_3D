@@ -5,6 +5,8 @@ const adidas =document.querySelector('.adidas img');
 const aaddtocart =document.querySelector('.addtocart button');
 const description =document.querySelector('.info h3');
 const sizes =document.querySelector('.sizes');
+const color =document.querySelector('.color');
+
 
 container.addEventListener('mousemove',(e)=>{
     let xAxis=(window.innerWidth/2-e.pageX)/25;
@@ -20,11 +22,12 @@ container.addEventListener('mouseenter',(e)=>{
 
     // popup
     title.style.transform='translateZ(150px)';
-    title.style.color='#f55e50';
+    title.style.color='#2f5693 ';
     adidas.style.transform='translateZ(200px) rotateZ(-45deg)';
     description.style.transform='translateZ(125px)';
-    description.style.color='#2f5693';
+    description.style.color='#f55e50';
     sizes.style.transform='translateZ(100px)';
+    color.style.transform='translateZ(100px)';
     aaddtocart.style.transform='translateZ(75px)';
 
 
@@ -35,11 +38,12 @@ container.addEventListener('mouseleave',(e)=>{
     card.style.transform=`rotateY(0deg)rotate(0deg)`;
     //popout
     title.style.transform='translateZ(0px)';
-    title.style.color='#2f5693';
+    title.style.color='#f55e50';
     adidas.style.transform='translateZ(0px) rotateZ(0deg)';
     description.style.transform='translateZ(0px)';
-    description.style.color='#f55e50';
+    description.style.color='#2f5693';
     sizes.style.transform='translateZ(0px)';
+    color.style.transform='translateZ(0px)';
     aaddtocart.style.transform='translateZ(0px)';
 
 
@@ -55,4 +59,14 @@ container.addEventListener('mouseleave',(e)=>{
  }
   function change4() {
      document.getElementById('pic').src='adidas.png';
+ }
+ var header = document.getElementById("myDIV");
+ var btns =header.getElementsByClassName("btn1");
+ for (var i = 0; i < btns.length; i++) {
+   btns[i].addEventListener("click", function() {
+   var current = document.getElementsByClassName("active");
+
+   current[0].className = current[0].className.replace(" active", "");
+   this.className += " active";
+   });
  }
