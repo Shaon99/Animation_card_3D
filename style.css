@@ -75,7 +75,7 @@ body{
 }
 .sizes{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     transition: all 0.75s ease-out;
     margin-top: .5rem;
 }
@@ -92,7 +92,7 @@ body{
 }
 .color{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     transition: all 0.75s ease-out;
     margin-bottom:1rem;
     margin-top:1.5rem;
