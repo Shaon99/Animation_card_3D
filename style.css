@@ -75,7 +75,7 @@ body{
 }
 .sizes{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     transition: all 0.75s ease-out;
     margin-top: .5rem;
 }
@@ -92,7 +92,7 @@ body{
 }
 .color{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     transition: all 0.75s ease-out;
     margin-bottom:1rem;
     margin-top:1.5rem;
@@ -146,14 +146,12 @@ button.active{
 .addtocart{
     margin-top: 2rem;
     transition: all 0.75s ease-out;
-    padding: 0rem 3rem;
-
 
 }
 
 .addtocart button{
     width: 100%;
-    padding: 1rem 0rem;
+    padding: .8rem 0rem;
     background: #f54642;
     border:none;
     color:white;
